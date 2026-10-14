@@ -1,0 +1,141 @@
+* {
+  margin: 1.5px;
+  padding: 0;
+  font-size: medium;
+  font-weight: normal;
+  font-family: 'Segoe UI', fantasy;
+
+}
+
+
+
+/* Header styles */
+#headerContainer > h1 {
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: center;
+  color: darkred;
+}
+
+#headerContainer > small {
+  font-size: small;
+  text-align: center;
+  padding: 5px;
+  color: black;
+}
+
+#headerContainer {
+  text-align: center;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+#formContainer {
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 1px 1px dimgray;
+  border-radius: 15px;
+  background:#F8F8F8;
+  
+}
+
+#formContainer > #studentform > .input -field {
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+
+
+
+#formContainer .input-field {
+  display: flex;
+ 
+}
+
+#formContainer .input-field label {
+  margin-bottom: 15px;
+  font-weight: bold;
+
+}
+
+#formContainer .input-field input {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+#formContainer button {
+  border: 2px solid #6B0000;
+  padding: 11px 18px;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  background: darkred;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+
+
+
+
+#listContainer > .list-item {
+  box-shadow: 1px 1px dimgray;
+  padding: 15px;
+  border-radius: 10px;
+  background: #F8F8F8;
+}
+#listContainer > .list-item > h2 {
+  margin: 1.5px;
+  padding: 0;
+  font-size: medium;
+  font-weight: normal;
+  
+}
+
+#listContainer > .list-item > p {
+  margin: 1.5px;
+  padding: 0;
+  font-size: medium;
+  font-weight: normal;
+  
+}
+
+#listContainer > .list-item > button {
+  border: 2px solid #6B0000;
+padding: 11px 18px;
+border-radius: 6px;
+font-size: 15px;
+cursor: pointer;
+background: darkred;
+color: #FFFFFF;
+
+}
+
+#listContainer {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+
+@media (width < 320px) {
+  #listContainer > .list-item {
+    grid-column: span 12;
+  }
+}
+
+
+@media (width < 1000px) {
+  #listContainer > .list-item {
+    grid-column: span 12;
+  }
+}
+
+
+@media (width < 900px) {
+  #listContainer > .list-item {
+    grid-column: span 12;
+  }
+}
