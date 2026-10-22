@@ -6,6 +6,9 @@
   font-family: 'Segoe UI', fantasy;
 
 }
+body {
+  background-color: white;
+}
 
 
 
@@ -36,7 +39,7 @@
   padding: 10px;
   box-shadow: 1px 1px dimgray;
   border-radius: 15px;
-  background:#F8F8F8;
+  background:#F4F4F6;
   
 }
 
@@ -73,7 +76,7 @@
   font-size: 15px;
   cursor: pointer;
   background: darkred;
-  color: #FFFFFF;
+  color: #F4F4F6;
   font-weight: bold;
 }
 
@@ -85,7 +88,7 @@
   box-shadow: 1px 1px dimgray;
   padding: 15px;
   border-radius: 10px;
-  background: #F8F8F8;
+  background: #F4F4F6;
 }
 #listContainer > .list-item > h2 {
   margin: 1.5px;
@@ -110,7 +113,7 @@ border-radius: 6px;
 font-size: 15px;
 cursor: pointer;
 background: darkred;
-color: #FFFFFF;
+color: #F4F4F6;
 
 }
 
@@ -120,21 +123,21 @@ color: #FFFFFF;
 }
 
 
-@media (width < 320px) {
+@media (width < 600px) {
   #listContainer > .list-item {
     grid-column: span 12;
   }
 }
 
 
-@media (width < 1000px) {
+@media (width < 1024px) {
   #listContainer > .list-item {
     grid-column: span 12;
   }
 }
 
 
-@media (width < 900px) {
+@media (width < 901px) {
   #listContainer > .list-item {
     grid-column: span 12;
   }

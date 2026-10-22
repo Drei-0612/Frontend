@@ -3,8 +3,7 @@ let students = [
     { id: 1, name: "Bob", age: 22, program: "Bachelor of Science in Information Technology" },
     { id: 2, name: "Charlie", age: 19, program: "Bachelor of Science in Information Technology" },
     { id: 3, name: "David", age: 21, program: "Bachelor of Science in Information Technology" },
-    { id: 4, name: "Eve", age: 20, program: "Bachelor of Science in Information Technology" },
-    { id: 5, name: "Frank", age: 23, program: "Bachelor of Science in Information Technology" },
+    { id: 4, name: "Sey", age: 20, program: "Bachelor of Science in Information Technology" },
 ];
 
 const createStudent = (name, program) => {
