@@ -21,9 +21,12 @@ body {
 }
 
 #headerContainer > small {
-  font-size: small;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
   text-align: center;
-  padding: 5px;
+  letter-spacing: 0.5px;
+  padding: 5px 16px;
   color: black;
 }
 
@@ -36,11 +39,16 @@ body {
 
 #formContainer {
   margin: 20px;
-  padding: 10px;
+  padding: 15px 20px;
   box-shadow: 1px 1px dimgray;
   border-radius: 15px;
-  background:#F4F4F6;
-  
+  background: #F4F4F6;
+}
+
+#formContainer form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 #formContainer > #studentform > .input -field {
@@ -55,18 +63,24 @@ body {
 
 #formContainer .input-field {
   display: flex;
- 
+  flex-direction: column;
+  gap: 5px;
 }
 
 #formContainer .input-field label {
-  margin-bottom: 15px;
   font-weight: bold;
-
+  font-size: 14px;
 }
 
 #formContainer .input-field input {
-  margin-bottom: 15px;
-  font-weight: bold;
+  padding: 9px 12px;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: inherit;
+  width: 100%;
+  box-sizing: border-box;
+  background: white;
 }
 
 #formContainer button {

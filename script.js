@@ -31,5 +31,5 @@ const studentList = students.map((s) => {
 
 const studentListContainer = document.querySelector("#listContainer");
 studentList.forEach((s) => {
-    listContainer.append(s);
+    studentListContainer.append(s);
 });
